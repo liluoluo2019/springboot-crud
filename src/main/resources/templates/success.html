@@ -10,7 +10,7 @@
     <div th:text="${hello}" th:id="${hello}" th:class="${hello}">这里是显示div里面的内容</div>
     <div th:utext="${hello}">这个是utext</div>
 
-    <h4 th:text="${user}" th:each="user: ${users}"></h4>
+    <h4 th:text="${user}" th:each="user: ${users}">测试th:text</h4>
     <hr>
     <h4>
         <span th:each="user:${users}">[[${user}]]</span>
